@@ -1,0 +1,19 @@
+.progress-bar-border {
+  width: auto;
+  height: 24px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin: 24px;
+}
+
+.progress-bar-inner {
+  background: red;
+  width: 0;
+  height: 100%;
+  border-radius: 12px;
+  transition: width 0.5s ease;
+}
+
+/* .progress-bar-inner.active {
+  width: 100%;
+} */

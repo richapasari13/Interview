@@ -1,0 +1,19 @@
+.image-wrapper {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.image-gallery {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.image-gallery.active {
+  border: 2px solid cadetblue;
+}
+
+.image-content {
+    object-fit: fill;
+}

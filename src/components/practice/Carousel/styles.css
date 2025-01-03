@@ -1,0 +1,35 @@
+.carousel-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+    margin-top: 16px;
+}
+
+.preview {
+    height: 500px;
+    width: 800px;
+    border: 1px solid #ddd;
+    margin-top: 32px;
+    display: flex;
+
+}
+
+.slider-image {
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.slider-image.active {
+ border: 2px solid cadetblue;
+ scale: 1.1;
+ transition: scale 0.2s;
+}
+
+.navigation-button {
+    cursor: pointer;
+}

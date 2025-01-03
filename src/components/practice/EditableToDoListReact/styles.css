@@ -1,0 +1,19 @@
+.list-item {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item .completed {
+    text-decoration: line-through;
+}
+
+.edit-icon,
+.cross-icon {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0 8px;
+}
